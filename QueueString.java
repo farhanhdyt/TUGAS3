@@ -6,20 +6,20 @@ public class QueueString {
 	int alief = -1;
 
 	public void insert(String value) {
-		alief++;
+		farhan++;
 		kelase.add(alief,value);
 	}
 	public String get() {
 		String value = "KOSONG";
-		if(alief>-1) {
+		if(farhan>-1) {
 			value = kelase.get(0);
 			kelase.remove(0);
-			alief--;
+			farhan--;
 		}
 		return value;
 		
 	}
 	public void cetak() {
-		System.out.println("ECOR : "+alief+" > KELAS E: "+kelase.toString());
+		System.out.println("ECOR : "+farhan+" > KELAS E: "+kelase.toString());
 	}
 }
